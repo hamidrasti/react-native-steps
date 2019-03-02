@@ -1,0 +1,26 @@
+{
+  "name": "react-native-steps",
+  "version": "1.0.0",
+  "description": "A react-native implementation of step indicators widget.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamraa/react-native-steps.git"
+  },
+  "keywords": [
+    "react-native",
+    "ios",
+    "android",
+    "steps",
+    "step-indicators"
+  ],
+  "author": "hamraa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamraa/react-native-steps/issues"
+  },
+  "homepage": "https://github.com/hamraa/react-native-steps#readme"
+}
