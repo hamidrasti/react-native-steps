@@ -209,7 +209,7 @@ interface StepsConfigs {
     /**
      * Label alignment
      *
-     * @default 'center'
+     * @default {}
      * @type {TextStyle}
      * @memberof StepsConfigs
      *
