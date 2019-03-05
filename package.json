@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/hamraa/react-native-steps/issues"
   },
-  "homepage": "https://github.com/hamraa/react-native-steps#readme"
+  "homepage": "https://github.com/hamraa/react-native-steps#readme",
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  }
 }
