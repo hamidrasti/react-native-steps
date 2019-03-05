@@ -12,10 +12,18 @@
   },
   "keywords": [
     "react-native",
+    "react-component",
     "ios",
     "android",
+    "step",
     "steps",
-    "step-indicators"
+    "indicator",
+    "step-indicator",
+    "step-indicators",
+    "viewpager",
+    "scrollview",
+    "listview",
+    "flatlist"
   ],
   "author": "hamraa",
   "license": "ISC",
