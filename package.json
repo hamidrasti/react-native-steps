@@ -1,6 +1,6 @@
 {
   "name": "react-native-steps",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A react-native implementation of step indicators widget.",
   "main": "Steps.js",
   "types": "index.d.ts",
