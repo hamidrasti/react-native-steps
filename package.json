@@ -35,7 +35,7 @@
     "url": "https://github.com/hamraa/react-native-steps/issues"
   },
   "homepage": "https://github.com/hamraa/react-native-steps#readme",
-  "dependencies": {
+  "peerDependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.8.3",
     "react-native": "^0.58.6"
