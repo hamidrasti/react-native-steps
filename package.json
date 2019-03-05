@@ -2,7 +2,7 @@
   "name": "react-native-steps",
   "version": "1.0.0",
   "description": "A react-native implementation of step indicators widget.",
-  "main": "index.js",
+  "main": "Steps.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
