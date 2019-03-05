@@ -262,6 +262,15 @@ interface StepsProps {
     labels?: string[]
 
     /**
+     * Number of steps
+     *
+     * @default false
+     * @type {boolean}
+     * @memberof StepsProps
+     */
+    reversed?: boolean
+
+    /**
      * Callback fired when tapping on a step
      *
      * @param {number} step
