@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A react-native implementation of step indicators widget.",
   "main": "Steps.js",
+  "types": "index.d.ts",
+  "directories": {
+    "sample": "sample"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
