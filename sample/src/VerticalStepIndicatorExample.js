@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {FlatList, StyleSheet, Text, View} from 'react-native';
-import Steps from './step-indicator';
+import Steps from 'react-native-steps';
 import dummyData from './data';
 
 const stepIndicatorStyles = {
@@ -26,8 +26,8 @@ const stepIndicatorStyles = {
 
 export default class VerticalStepIndicator extends Component {
 
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
 
         this.state = {
             currentPage: 0
@@ -68,7 +68,7 @@ export default class VerticalStepIndicator extends Component {
         )
     };
 
-    onViewableItemsChanged = ({viewableItems, changed}) => {
+    onViewableItemsChanged = ({viewableItems}) => {
         const visibleItemsCount = viewableItems.length;
         if (visibleItemsCount !== 0) {
             this.setState({currentPage: viewableItems[visibleItemsCount - 1].index})
