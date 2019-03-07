@@ -67,8 +67,8 @@ export default class Steps extends Component {
                 flexDirection: 'row',
                 flex: 1
             } : {flexDirection: 'column'}]}>
-                <View style={reversed ? {transform: [{rotate: '180deg'}]} : null}>
-                    {this.state.width !== 0 && this.renderProgressBarBackground()}
+                {this.state.width !== 0 && this.renderProgressBarBackground()}
+                <View style={reversed ? {transform: [{rotate: '180deg'}]} : {}}>
                     {this.state.width !== 0 && this.renderProgressBar()}
                 </View>
                 {this.renderStepIndicator()}
@@ -104,7 +104,6 @@ export default class Steps extends Component {
 
             if (reversed) {
                 progressBarBackgroundStyle.right = (this.state.width - this.state.configs.separatorStrokeWidth) / 2;
-
             } else {
                 progressBarBackgroundStyle.left = (this.state.width - this.state.configs.separatorStrokeWidth) / 2;
             }
@@ -122,7 +121,6 @@ export default class Steps extends Component {
 
             if (reversed) {
                 progressBarBackgroundStyle.bottom = (this.state.height - this.state.configs.separatorStrokeWidth) / 2;
-
             } else {
                 progressBarBackgroundStyle.top = (this.state.height - this.state.configs.separatorStrokeWidth) / 2;
             }
@@ -340,7 +338,6 @@ export default class Steps extends Component {
             position = count - 1;
         }
         const animateToPosition = (this.state.progressBarSize / (count - 1)) * position;
-        // console.warn(position, animateToPosition);
         this.sizeAnim.setValue(this.state.configs.stepIndicatorSize);
         this.borderRadiusAnim.setValue(this.state.configs.stepIndicatorSize / 2);
         Animated.sequence([
