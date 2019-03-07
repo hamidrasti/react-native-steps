@@ -8,7 +8,7 @@ const PAGES = ['Page 1', 'Page 2', 'Page 3', 'Page 4', 'Page 5'];
 
 const firstIndicatorConfigs = {
     stepIndicatorSize: 30,
-    currentStepIndicatorSize: 30,
+    currentStepIndicatorSize: 40,
     separatorStrokeWidth: 3,
     currentStepStrokeWidth: 5,
     separatorFinishedColor: '#4aae4f',
