@@ -1,8 +1,9 @@
-import React, {Component} from 'react'
-import {StyleSheet, Text, View} from 'react-native'
-import {ViewPager} from 'rn-viewpager'
-import Steps from 'react-native-steps'
-import MaterialIcon from 'react-native-vector-icons/MaterialIcons'
+import React, {Component} from 'react';
+import {StyleSheet, Text, View} from 'react-native';
+import {ViewPager} from 'rn-viewpager';
+// import Steps from 'react-native-steps';
+import Steps from '../../';
+import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
 
 const PAGES = ['Page 1', 'Page 2', 'Page 3', 'Page 4', 'Page 5'];
 
