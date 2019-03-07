@@ -97,33 +97,22 @@ export default class Steps extends Component {
                 position: 'absolute',
                 top: this.state.height / (2 * count),
                 bottom: this.state.height / (2 * count),
+                left: (this.state.width - this.state.configs.separatorStrokeWidth) / 2,
                 width: this.state.configs.separatorStrokeUnfinishedWidth === 0 ?
                     this.state.configs.separatorStrokeWidth :
                     this.state.configs.separatorStrokeUnfinishedWidth
             };
-
-            if (reversed) {
-                progressBarBackgroundStyle.right = (this.state.width - this.state.configs.separatorStrokeWidth) / 2;
-            } else {
-                progressBarBackgroundStyle.left = (this.state.width - this.state.configs.separatorStrokeWidth) / 2;
-            }
-
         } else {
             progressBarBackgroundStyle = {
                 backgroundColor: this.state.configs.separatorUnFinishedColor,
                 position: 'absolute',
                 left: this.state.width / (2 * count),
                 right: this.state.width / (2 * count),
+                top: (this.state.height - this.state.configs.separatorStrokeWidth) / 2,
                 height: this.state.configs.separatorStrokeUnfinishedWidth === 0 ?
                     this.state.configs.separatorStrokeWidth :
                     this.state.configs.separatorStrokeUnfinishedWidth
             };
-
-            if (reversed) {
-                progressBarBackgroundStyle.bottom = (this.state.height - this.state.configs.separatorStrokeWidth) / 2;
-            } else {
-                progressBarBackgroundStyle.top = (this.state.height - this.state.configs.separatorStrokeWidth) / 2;
-            }
         }
         return (
             <View
