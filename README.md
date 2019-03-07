@@ -8,7 +8,11 @@ A react-native implementation of step indicators widget.
   - Supports vertical and horizontal orientation
   - Supports reversed mode
   - Supports animation between steps
+  - Supports custom fonts
   
+<p align="center">
+  <img width="480" height="106" src="art/1.png" alt="Reversed Sample">
+</p>
   
 ### Sample
 ```sh
