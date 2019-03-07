@@ -11,11 +11,11 @@ A react-native implementation of step indicators widget.
   - Supports custom fonts
   
 <p align="center">
-  <img width="480" height="106" src="art/1.png" alt="Reversed Sample">
+  <img width="480" height="76" src="art/1.png" alt="Reversed Sample">
 </p>
 
 <p align="center">
-  <img width="480" height="103" src="art/2.png" alt="Sample">
+  <img width="480" height="76" src="art/2.png" alt="Sample">
 </p>
   
 ### Sample
