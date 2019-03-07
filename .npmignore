@@ -4,6 +4,7 @@ node_modules/
 sample/
 npm-debug.log
 yarn.lock
+yarn-error.log
 .travis.yml
 README.md
 .babelrc
