@@ -75,6 +75,7 @@ render() {
          configs={configs}
          current={this.state.current}
          labels={labels}
+         reversed={true}
     />
   )
 }
