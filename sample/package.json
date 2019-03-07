@@ -8,7 +8,11 @@
   },
   "dependencies": {
     "react": "16.6.3",
-    "react-native": "0.58.6"
+    "react-native": "0.58.6",
+    "react-native-paged-scroll-view": "^2.0.4",
+    "react-native-steps": "^1.2.1",
+    "react-native-vector-icons": "^6.3.0",
+    "rn-viewpager": "^1.2.9"
   },
   "devDependencies": {
     "babel-core": "7.0.0-bridge.0",
