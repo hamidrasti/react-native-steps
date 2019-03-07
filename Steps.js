@@ -220,8 +220,10 @@ export default class Steps extends Component {
         const labelViews = labels.map((label, index) => {
             const selectedStepLabelStyle = index === current ? {color: this.state.configs.currentStepLabelColor} : {color: this.state.configs.labelColor};
             return (
-                <TouchableWithoutFeedback style={styles.stepLabelItem} key={index}
-                                          onPress={() => this.stepPressed(index)}>
+                <TouchableWithoutFeedback
+                    key={index}
+                    style={styles.stepLabelItem}
+                    onPress={() => this.stepPressed(index)}>
                     <View style={styles.stepLabelItem}>
                         <Text
                             style={[styles.stepLabel, selectedStepLabelStyle, {fontSize: this.state.configs.labelSize, ...this.state.configs.labelStyle}]}>
