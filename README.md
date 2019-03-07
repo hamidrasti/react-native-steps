@@ -8,6 +8,7 @@ A react-native implementation of step indicators widget.
   - Supports vertical and horizontal orientation
   - Supports reversed mode
   - Supports animation between steps
+  - Supports different icons for each step
   - Supports custom fonts
   
 <p align="center">
@@ -31,7 +32,7 @@ $ react-native run-android   // For Android
 
 or
 
-``yarn add react-native-steps --save``
+``yarn add react-native-steps``
 
 ### Usage
 ```javascript
