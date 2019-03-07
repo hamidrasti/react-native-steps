@@ -89,7 +89,7 @@ export default class Steps extends Component {
     }
 
     renderProgressBarBackground = () => {
-        const {count, direction, reversed} = this.props;
+        const {count, direction} = this.props;
         let progressBarBackgroundStyle;
         if (direction === 'vertical') {
             progressBarBackgroundStyle = {
